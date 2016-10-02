@@ -1,5 +1,6 @@
 package com.company;
 
+
 public class ExceptionTest {
     public static void test() throws Exception {
         try {
@@ -9,7 +10,7 @@ public class ExceptionTest {
         }
     }
 
-    public static void main(String[] args) {
+    public static void ExceptionTest(String[] args) {
         try {
             ExceptionTest.test();
         } catch (Exception e) {
